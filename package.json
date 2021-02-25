@@ -1,7 +1,7 @@
 {
   "name": "eapcase",
   "version": "1.0.0",
-  "description": "Case for programming",
+  "description": "for better programming",
   "main": "index.js",
   "type":"module",
   "scripts": {

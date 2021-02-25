@@ -8,7 +8,7 @@ eapcase is tool to show **writing style in programming**, this package is not to
 
 ## Installation
 
-**Note** this package **only** supports npm only,
+**Note** this package supports npm **only**,
 first you need to install this package with:
 
 > npm install -g eapcase
@@ -38,7 +38,7 @@ So this is your file name:
 
 **Note** remove filename with your file name
 
-Just import **eapcase/index.mjs**
+Just import **eapcase**
 
 Then print your Text using console.log Followed by `Case._case style here_`
 
@@ -47,7 +47,7 @@ So the contents of the file will look like this
 Example:
 
 ```
-import Case from 'eapcase/index.mjs';
+import Case from 'eapcase';
 
 console.log (Case.snake ("Hello World"));
 
@@ -62,6 +62,8 @@ Hello_World
 ## method
 
 use this method to make the output lowercase or uppercase
+
+_this method will released on version 1.0.2_
 
 1. .lower().
 

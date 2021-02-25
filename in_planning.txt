@@ -23,10 +23,6 @@ Case.path = (str) => {
 }
 
 
-
-
-
-
 console.log (Case.lower ("halo dunia"))
 console.log (Case.upper ("halo dunia"))
 console.log (Case.noWhiteSpace ("halo dunia"))
