@@ -59,34 +59,6 @@ Output:
 Hello_World
 ```
 
-## method
-
-use this method to make the output lowercase or uppercase
-
-_this method will released on version 1.0.2_
-
-1. .lower().
-
-   To convert your output to lowercase
-
-   Example:
-
-   ```
-   console.log(Case.snake("Hello World").lower());
-   ```
-
-````
-
-2. .upper().
-
-    To convert your output to uppercase.
-
-    Example:
-
-    ```
-console.log (Case.snake ("hello world").upper());
-````
-
 ## Conclusion
 
 So that was the documentation for eapcase, a tool to show writing style in programming. The next update will include more Cases, so wait for the next update, ok!.

@@ -4,7 +4,6 @@ Case.snake = (str) => {
   return str
     .split(/(?=[A-Z])/)
     .join("_")
-    .toLowerCase()
     .split(/\s/g)
     .join("_");
 };
