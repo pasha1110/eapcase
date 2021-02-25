@@ -1,0 +1,12 @@
+{
+  "name": "eapcase",
+  "version": "1.0.0",
+  "description": "Case for programming",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "erlangga",
+  "license": "ISC"
+}
