@@ -1,12 +1,15 @@
 {
   "name": "eapcase",
-  "version": "1.0.0",
+  "version": "1.1.8",
   "description": "for better programming",
   "main": "index.js",
-  "type":"module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "erlangga",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pasha1110/eapcase.git"
+}
 }

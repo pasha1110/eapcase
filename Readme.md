@@ -20,23 +20,21 @@ don't want to install globally remove -g
 
 ### Case support:
 
-| Case name   | version |
-| ----------- | ------- |
-| Case.kebab  | 1.0.0   |
-| Case.snake  | 1.0.0   |
-| Case.camel  | 1.0.0   |
-| Case.pascal | 1.0.0   |
+| Case name         | version |
+| ----------------- | ------- |
+| Case.kebab        | 1.0.0   |
+| Case.snake        | 1.0.0   |
+| Case.camel        | 1.0.0   |
+| Case.pascal       | 1.0.0   |
+| Case.path         | 1.1.5   |
+| Case.upper        | 1.1.5   |
+| Case.lower        | 1.1.5   |
+| Case.noWhitwSpace | 1.1.5   |
 
 - _Several cases will be released in the next update_
 
 ## how to use
 
-**Note** Name your file with the **.mjs** extension because this package using import and export
-
-So this is your file name:
-`filename.mjs `
-
-**Note** remove filename with your file name
 
 Just import **eapcase**
 
@@ -46,8 +44,9 @@ So the contents of the file will look like this
 
 Example:
 
-```
-import Case from 'eapcase';
+```javascript
+
+const Case = require ("eapcase");
 
 console.log (Case.snake ("Hello World"));
 
